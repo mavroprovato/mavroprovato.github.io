@@ -2,8 +2,8 @@
 title: "mavroprovato"
 email: mavroprovato@gmail.com"
 description: "A small corner at the edge of the internet."
-baseurl: "http://mavroprovato.net"
-url: "http://mavroprovato.net"
+baseurl: ""
+url: ""
 title_description: "A small corner at the edge of the internet."
 title_image: "favicons/android-chrome-512x512.png"
 google_analytics: "UA-38537171-1"
@@ -24,7 +24,7 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_left: "Template <strike>stolen from</strike> inspired from <a href=\"https://github.com/jacobtomlinson/carte-noire\">Jacob Tomlinson</a>"
 footer_right: ""
 
 # Build settings
