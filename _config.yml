@@ -1,25 +1,25 @@
 # Site settings
-title: "Carte Noire"
-email: jacob@jacobtomlinson.co.uk
-description: "A dark blog theme for Jekyll."
-baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
+title: "Mavroprovato"
+email: mavroprovato@gmail.com
+description: "A small corner at the edge of the internet."
+baseurl: "http://mavroprovato.net"
+url: "http://mavroprovato.net"
+title_description: "A small corner at the edge of the internet."
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
+google_analytics: "UA-38537171-1"
+disqus_account: mavroprovato
+github_repository: https://github.com/mavroprovato
+addthis_id:
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+twitter_username: _mavroprovato
+github_username:  mavroprovato
+instagram_username:
+reddit_username:
+linkedin_link: https://www.linkedin.com/in/mavroprovato/
+google_plus_link: https://plus.google.com/u/0/+KostasKokkoros
+stackoverflow_link: https://stackoverflow.com/users/89435/mavroprovato
 xing_link:
 facebook_link:
 
