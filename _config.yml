@@ -5,7 +5,7 @@ description: "A small corner at the edge of the internet."
 baseurl: "http://mavroprovato.net"
 url: "http://mavroprovato.net"
 title_description: "A small corner at the edge of the internet."
-title_image: "favicons/android-chron-512x512.png"
+title_image: "favicons/android-chrome-512x512.png"
 google_analytics: "UA-38537171-1"
 disqus_account: mavroprovato
 github_repository: https://github.com/mavroprovato
