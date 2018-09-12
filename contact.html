@@ -23,13 +23,17 @@ make-smaller-titles: true
         </div>
         <div class="col-md-12 main content-panel">
             <p>
-                Hello! This is a small place at the edge of the internet, where you can find more about me. If you are
-                wondering what the heck mavroprovato means, well, it's Greek for black sheep.
-            </p>
-            <p>
-                If you want to contact me directly, you can send me an email. My email is <em>mavroprovato</em>
-                at <em>google</em>'s mail service. If you still cannot guess my email, then
-                <a href="/contact">use this form to contact me.</a>
+                <form action="https://formspree.io/{{ site.email }}" method="POST">
+                    <div class="form-group">
+                        <label for="name">Email address</label>
+                        <input type="email" class="form-control" name="name" id="name" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea class="form-control"  name="message" id="message" placeholder="Your message" required></textarea>
+                    </div>
+                     <button class="btn btn-primary">Send</button>
+                </form>
             </p>
         </div>
     </div>
