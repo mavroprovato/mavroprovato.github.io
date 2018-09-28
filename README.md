@@ -1,35 +1,33 @@
-# Carte Noire
+# Mavroprovato home page
 
-A simple Jekyll theme for blogging. Not named after the coffee.
+## Run the site locally
 
-![Homepage](http://i.imgur.com/xlmHArV.png)
+1. Check whether you have Ruby 2.1.0 or higher installed:
 
-### Article
-![Article](http://i.imgur.com/8rD8FfC.png)
+    ```
+    ruby --version
+    ruby 2.X.X
+    ```
 
-### Disqus Comments
-![Comments](http://i.imgur.com/TBZHQwF.png)
+2. If you don't have Ruby installed, [install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
 
-### Posts grouped by year
-![All Posts](http://i.imgur.com/9bNs2Sc.png)
+3. Install Bundler:
 
-### JavaScript Search
-![Search](http://i.imgur.com/yQqMeSl.png)
+    ```
+    gem install bundler
+    ```
 
-### Menu by mmenu
-![Menu](http://i.imgur.com/SClrNSH.png)
+4. Install Jekyll and other [dependencies](https://pages.github.com/versions/) from the GitHub Pages gem
 
-## Contact
-If you wish to contact me regarding this theme please raise an issue on GitHub,
-tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
-[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+    ```
+    bundle install
+    ```
 
-## Contribution
-Pull requests are very welcome.
+5. Run the Jekyll site locally
 
-## Theme
-This jekyll theme has been created from scratch. Ideas and inspiration are taken
-from other places but the code is my own.
+    ```
+    bundle exec jekyll serve
+    ```
 
 ## Tools and Libraries
 The following tools and libraries are used in this theme
@@ -53,4 +51,4 @@ The following tools and libraries are used in this theme
  * [Google Analytics](http://www.google.com/analytics/)
 
 ## License
-The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
+The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3.
