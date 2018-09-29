@@ -12,8 +12,8 @@ $(document).ready(function() {
                 return;
             }
             $("#github-repos").append(`
-                <dt><a href="${value.html_url}">${value.name}</a></dt>
-                <dd id="${value.name}">${value.description}&nbsp;</dd>
+                <dt id="${value.name}"><a href="${value.html_url}">${value.name}</a>&nbsp;</dt>
+                <dd>${value.description}&nbsp;</dd>
             `);
             // Show topics for repository
             $.ajax({
@@ -23,9 +23,9 @@ $(document).ready(function() {
                     'Accept': 'application/vnd.github.mercy-preview+json'
                 },
                 success: function (data) {
-                    $(`dd[id=${value.name}]`).append(
-                        '<span class="badge badge-light">' + data.names.join('</span>&nbsp;<span class="badge badge-info">') + '</span>'
-                    );
+                    $(`dt[id=${value.name}]`).append($.map(data.names, function(value) {
+                        return `<span class="badge badge-info">${value}</span>&nbsp;`
+                    }).join(''));
                 }
             });
         });
