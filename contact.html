@@ -3,40 +3,38 @@ layout: default
 make-smaller-titles: true
 ---
 
-
-<div class="container-fluid index">
-    <div class="row">
-        <div class="col-md-12 main content-panel">
-            <a href="{{url}}/">
-                <div class="gravatar">
-                    <img src="/{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-                </div>
-                <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
-            </a>
-
-            <div class="author-text">
-                {{ site.title_description }}
+<div class="row">
+    <div class="col-md-12 main content-panel">
+        <a href="{{url}}/">
+            <div class="gravatar">
+                <img src="/{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
             </div>
-            <div>
-                {% include social_links.html %}
-            </div>
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+        </a>
+
+        <div class="author-text">
+            {{ site.title_description }}
         </div>
-        <div class="col-md-12 main content-panel">
-            <h2>Contact</h2>
-            <p>Enter your email and message, and I'll get back to you... as soon as possible :-)</p>
-            <p>
-                <form action="https://formspree.io/{{ site.email }}" method="POST">
-                    <div class="form-group">
-                        <label for="name">Email address</label>
-                        <input type="email" class="form-control" name="name" id="name" placeholder="Your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your message</label>
-                        <textarea class="form-control"  name="message" id="message" placeholder="Your message" required></textarea>
-                    </div>
-                     <button class="btn btn-primary">Send</button>
-                </form>
-            </p>
+        <div>
+            {% include social_links.html %}
         </div>
     </div>
+    <div class="col-md-12 main content-panel">
+        <h2>Contact</h2>
+        <p>Enter your email and message, and I'll get back to you... as soon as possible :-)</p>
+        <p>
+            <form action="https://formspree.io/{{ site.email }}" method="POST">
+                <div class="form-group">
+                    <label for="name">Email address</label>
+                    <input type="email" class="form-control" name="name" id="name" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your message</label>
+                    <textarea class="form-control"  name="message" id="message" placeholder="Your message" required></textarea>
+                </div>
+                 <button class="btn btn-primary">Send</button>
+            </form>
+        </p>
+    </div>
 </div>
+
