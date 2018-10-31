@@ -93,6 +93,10 @@ ul {
     background-color: $medium;
     border-bottom: 5px solid $light-blue;
 
+    .navbar-brand {
+        margin-top: -5px;
+    }
+
     li {
         a {
             color: $white !important;
