@@ -1,5 +1,3 @@
----
----
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
@@ -106,12 +104,9 @@ ul {
 
 .content-panel {
     background-color: $medium;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px 30px;
     margin-top: 20px;
-    box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 0, 0 6px 12px rgba(0, 0, 0, 0.2);
     border-bottom: 5px solid $light-blue;
 }
 
@@ -182,7 +177,7 @@ ul {
     height: 100%;
     max-height: 100%;
     width: 100%;
-    padding: 0px;
+    padding: 0;
 
     @media (min-width: $screen-sm-min) {
         width: 1024px;
@@ -191,8 +186,8 @@ ul {
 
     .header {
         margin-top: 10px;
-        margin-left: 0%;
-        margin-bottom: 0px;
+        margin-left: 0;
+        margin-bottom: 0;
         font-size: 32px;
         width: 100%;
 
@@ -213,13 +208,13 @@ ul {
     .author-header {
         font-family: 'Montserrat', sans-serif;
         color: $light-blue;
-        margin-top: 0px;
+        margin-top: 0;
         padding-top: 15px;
         font-size: 30px;
 
         @media (min-width: $screen-sm-min) {
             font-size: 52px;
-            margin-top: 0px;
+            margin-top: 0;
         }
 
         @media (min-width: $screen-md-min) {
@@ -232,8 +227,8 @@ ul {
         height: 100%;
         max-height: 100%;
         margin-top: 60px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .gravatar {
@@ -266,8 +261,7 @@ ul {
         }
 
         ul {
-
-            padding: 0px;
+            padding: 0;
 
             li {
                 margin-bottom: 20px;
@@ -280,18 +274,15 @@ ul {
                 small {
                     font-size: 14px;
                     margin-top: -10px;
-                    padding-top: 0px;
+                    padding-top: 0;
                     color: $light-medium;
                 }
-
             }
 
             li:nth-last-of-type(1) {
-
                 small {
                     font-size: 16px;
                 }
-
             }
         }
 
@@ -321,7 +312,7 @@ ul {
         margin-bottom: 20px;
         font-size: 20px;
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
 
         a, a:active {
             color: #FFFFFF;
@@ -346,8 +337,8 @@ ul {
 }
 
 .all-posts {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
 
     @media (min-width: $screen-sm-min) {
         #search-container {
@@ -369,8 +360,7 @@ ul {
         position:relative;
         width: 100%;
         padding:6px 15px 6px 30px;
-        margin: 2px;
-        margin-top: 50px;
+        margin: 50px 2px 2px;
 
         color:$dark;
         background-color:$white;
@@ -422,7 +412,6 @@ ul {
     }
 
     .menu {
-
         background-color: $dark-blue;
 
         a, a:active {
@@ -456,7 +445,7 @@ ul {
 
         .related {
             ul {
-                padding: 0px;
+                padding: 0;
             }
             li {
                 margin-bottom: 10px;
@@ -466,8 +455,8 @@ ul {
 
     .article {
         width: 100%;
-        margin-left: 0%;
-        padding: 0px;
+        margin-left: 0;
+        padding: 0;
 
         @media (min-width: $screen-sm-min) {
             width: 90%;
@@ -486,7 +475,7 @@ ul {
 
         .thumb {
             margin-top: 20px;
-            margin-bottom: 0px;
+            margin-bottom: 0;
             text-align: center;
 
             img {
@@ -500,7 +489,7 @@ ul {
         .author {
             font-size: 20px;
             text-align: center;
-            margin-bottom: 0px;
+            margin-bottom: 0;
         }
 
         .read-time {
@@ -516,17 +505,11 @@ ul {
         .content {
             font-size: 18px;
             line-height: 170%;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding: 10px 15px;
 
             @media (min-width: $screen-sm-min) {
                 font-size: 24px;
-                padding-left: 30px;
-                padding-right: 30px;
-                padding-top: 40px;
-                padding-bottom: 20px;
+                padding: 40px 30px 20px;
             }
 
             .series {
@@ -536,23 +519,23 @@ ul {
             img {
                 max-width: 100%;
                 padding: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto
+                display: block;
+                margin-left: auto;
+                margin-right: auto
             }
 
             ul {
                 list-style-type: disc;
             }
 
-                    ol {
+            ol {
                 list-style-type: decimal;
             }
 
             blockquote {
                 position: relative;
                 width: 100%;
-            margin-left: -15px;
+                margin-left: -15px;
                 padding-right: 10px;
                 background-color: $darker;
                 color: white;
@@ -567,22 +550,21 @@ ul {
                 }
 
                 p {
-                margin: 0;
-                padding: 15px;
+                    margin: 0;
+                    padding: 15px;
                     z-index: 0;
                 }
 
                 :before {
-                font-family: "Times New Roman";
+                    font-family: "Times New Roman", serif;
                     color: $light-medium;
-                content: "“";
-                position: absolute;
-                top: 15px;
-                left: 15px;
-                font-size: 65px;
-                font-weight: bold;
+                    content: "“";
+                    position: absolute;
+                    top: 15px;
+                    left: 15px;
+                    font-size: 65px;
+                    font-weight: bold;
                 }
-
             }
 
             .alignright {
@@ -607,15 +589,12 @@ ul {
 
                 pre {
                     width: 100%;
-                    font-family: 'Anonymous Pro';
+                    font-family: 'Anonymous Pro', serif;
                     background-color: $darker;
                     color: $white;
                     font-size: 12px;
                     border: none;
-                    padding-left: 15px;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                    padding-right: 15px;
+                    padding: 20px 15px;
                     box-sizing: content-box;
                     border-radius: 0;
                     margin-bottom: 10px;
@@ -631,16 +610,14 @@ ul {
             }
 
             p, ul, ol {
-
                 code {
-                    font-family: 'Anonymous Pro';
+                    font-family: 'Anonymous Pro', serif;
                     font-size: 15px;
                     background-color: $darker;
                     color: $white;
                     padding: 0.5em;
                     vertical-align: middle;
                 }
-
             }
 
             .tags {
@@ -664,7 +641,6 @@ ul {
                 text-align: center;
 
             }
-
         }
 
         .feedback {
@@ -678,7 +654,6 @@ ul {
 
         .comments {
         }
-
     }
 }
 
@@ -696,7 +671,7 @@ ul {
             width: auto;
             padding: 10px 20px;
             background-color: $darker;
-            box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 0, 0 6px 12px rgba(0, 0, 0, 0.2);
         }
 
         a:hover {
@@ -723,7 +698,7 @@ ul {
     }
 
     p {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .previous-next {
@@ -774,7 +749,7 @@ ul {
 
 .footer {
     width: 100%;
-    margin-left: 0%;
+    margin-left: 0;
 
     .fa-heart {
         color: $red;
