@@ -91,6 +91,17 @@ ul {
 .navbar {
     border: none;
     background-color: $medium;
+    border-bottom: 5px solid $light-blue;
+
+    li {
+        a {
+            color: $white !important;
+        }
+    }
+
+    li:hover {
+        background-color: $dark;
+    }
 }
 
 .content-panel {
