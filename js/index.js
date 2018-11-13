@@ -16,8 +16,7 @@ $(document).ready(function() {
                 <dd>${value.description}&nbsp;</dd>
             `);
             // Show topics for repository
-            $.ajax({
-                type: "GET",
+            $.get({
                 url: `https://api.github.com/repos/${githubUsername}/${value.name}/topics`,
                 headers: {
                     'Accept': 'application/vnd.github.mercy-preview+json'
@@ -29,7 +28,7 @@ $(document).ready(function() {
                 }
             });
         });
-    }).error(function (error) {
+    }).fail(function (error) {
         console.error(`Request failed with error: ${error.status}`);
         $("#github-section").hide();
     });
