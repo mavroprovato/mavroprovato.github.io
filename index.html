@@ -1,49 +1,42 @@
 ---
 layout: default
-make-smaller-titles: true
 custom_js:
     - index.js
 ---
-
-
-
-
-
-
-    <div class="row">
-        <div class="col-md-12 main content-panel">
-            <a href="{{url}}/">
-                <div class="gravatar">
-                    <img src="/{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-                </div>
-                <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
-            </a>
-
-            <div class="author-text">
-                {{ site.title_description }}
+<div class="row">
+    <div class="col-md-12 main content-panel">
+        <a href="{{url}}/">
+            <div class="gravatar">
+                <img src="/{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
             </div>
-            <div>
-                {% include social_links.html %}
-            </div>
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+        </a>
+
+        <div class="author-text">
+            {{ site.title_description }}
         </div>
-        <div class="col-md-12 main content-panel">
-            <p>
-                Hello! This is a small place at the edge of the internet, where you can find more about me. If you are
-                wondering what the heck mavroprovato means, well, it's Greek for black sheep.
-            </p>
-            <p>
-                If you want to contact me directly, you can send me an email. My email is <em>mavroprovato</em>
-                at <em>google</em>'s mail service. If you still cannot guess my email, then
-                <a href="/contact">use this form to contact me.</a>
-            </p>
-        </div>
-        <div id="github-section" class="col-md-12 main content-panel">
-            <p>
-                To see a sample of my code, you can check my <a href="https://github.com/{{ site.github_username }}">github profile</a>.
-                Here are some repositories that you might find interesting:
-                <dl id="github-repos">
-                </dl>
-            </p>
+        <div>
+            {% include social_links.html %}
         </div>
     </div>
+    <div class="col-md-12 main content-panel">
+        <p>
+            Hello! This is a small place at the edge of the internet, where you can find more about me. If you are
+            wondering what the heck mavroprovato means, well, it's Greek for black sheep.
+        </p>
+        <p>
+            If you want to contact me directly, you can send me an email. My email is <em>mavroprovato</em>
+            at <em>google</em>'s mail service. If you still cannot guess my email, then
+            <a href="/contact">use this form to contact me.</a>
+        </p>
+    </div>
+    <div id="github-section" class="col-md-12 main content-panel">
+        <p>
+            To see a sample of my code, you can check my <a href="https://github.com/{{ site.github_username }}">github profile</a>.
+            Here are some repositories that you might find interesting:
+            <dl id="github-repos">
+            </dl>
+        </p>
+    </div>
 </div>
+
