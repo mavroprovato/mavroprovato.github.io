@@ -2,7 +2,7 @@
 let githubUsername = 'mavroprovato';
 let githubReposUrl = `https://api.github.com/users/${githubUsername}/repos`;
 // Github repositories to include
-let repos = ['spring-cms', 'symfony-cms', 'django-cms', 'algorithms', 'qt-scintilla-editor'];
+let repos = ['spring-cms', 'symfony-cms', 'django-cms', 'algorithms', 'collection-manager', 'qt-scintilla-editor'];
 
 $(document).ready(function() {
     $.get(githubReposUrl, function (data) {
